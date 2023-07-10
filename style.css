@@ -123,6 +123,7 @@
     padding-right: 20px;
     
 }
+
 .appoinment-container{
     display: flex;
     justify-content: space-around;
@@ -138,7 +139,47 @@
 .phone-call{
     display: flex;
     align-items: center;
+    padding-right: 15px;
 }
 .phone-icon{
     width: 50px;
+}
+.apoin-btn{
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+.blog-container{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(251, 229, 202);
+    padding: 20px;
+}
+.blog-title{
+    color: black;
+    text-align: center;
+    margin: 30px;
+}
+.card{
+    width: 250px;
+    height: 380px;
+    box-shadow: 5px 8px 6px gray;
+    border-radius: 5px;
+}
+.blog-img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 35px;
 }
